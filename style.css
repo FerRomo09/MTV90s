@@ -1,0 +1,16 @@
+/* CSS styles */
+.text{
+    color:rgb(246, 246, 246);
+}
+
+/*Implementation of different font colors, sizes and styles de fonts in the different pages. */
+#top {
+    color:blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.table {
+    color: white;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

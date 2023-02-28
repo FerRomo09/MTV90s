@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Best Song MTV</title>
+  <!-- Implementation JQuery, hide and show images -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("img").animate({
+          height: 'toggle'
+        });
+      });
+    });
+  </script> 
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('sunrise.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    h1 {color: rgb(249, 249, 249); size: 11;}
+    h2 {color:rgb(104, 20, 6)}
+    p {color: rgb(209, 232, 231);}
+    </style>
+</head>
+<body>
+  <div id=not style="text-align: center;">
+  <!-- Image-Botton to return to main -->
+  <a href="Index.html"><img src="Logo.png" alt="MTV Logo" onclick="loadReturn()" style="width:180px;height:225px;"></a> </br>
+  <button id="hide">Hide and Show</button>
+  </br><img src="bestSongNirvana.jpeg"  alt="Smells Like Teen Spirit" style="width:200px;height:400px;">
+</div>
+</body>
+</html>
